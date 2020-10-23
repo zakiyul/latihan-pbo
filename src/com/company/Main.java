@@ -5,6 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         Operator operator = new Operator();
-        operator.ternary();
+        Perulangan perulangan =  new Perulangan();
+
+//        perulangan.forEach();
+//        perulangan.forLoop();
+//        operator.ternary();
     }
 }
