@@ -7,8 +7,11 @@ public class Main {
         Operator operator = new Operator();
         Perulangan perulangan =  new Perulangan();
 
+//        perulangan.nestedLoop();
+//        perulangan.doWhileLoop();
+//        perulangan.whileLoop();
 //        perulangan.forEach();
 //        perulangan.forLoop();
 //        operator.ternary();
-    }
+        }
 }

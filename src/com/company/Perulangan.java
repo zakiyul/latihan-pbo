@@ -24,4 +24,36 @@ public class Perulangan {
             System.out.println(data);
         }
     }
+    public void whileLoop(){
+        int i = 0;
+        System.out.print("Masukan angka = ");
+        int angka = masukan.nextInt();
+        while(i <= angka) {
+            System.out.println(i);
+            i++;
+        }
+    }
+    public void doWhileLoop(){
+        int i = 0;
+        System.out.print("Masukan angka = ");
+        int angka = masukan.nextInt();
+        do {
+            System.out.println("jumlah angka sekarang = "+ i);
+            i++;
+        }while(i <= angka);
+    }
+    public void nestedLoop(){
+        System.out.print("masukan jumlah i = ");
+        int angkaI = masukan.nextInt();
+        System.out.print("masukan jumlah j = ");
+        int angkaJ = masukan.nextInt();
+        for(int i = 1;i <= angkaI;i++){
+            System.out.println("====================[ i ke "+ i + " ]=====================");
+            for(int j = 1; j <= angkaJ; j++){
+                System.out.println("i = "+ i);
+                System.out.println("j = "+ j);
+                System.out.println("---------");
+            }
+        }
+    }
 }
